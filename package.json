@@ -1,0 +1,31 @@
+{
+  "name": "dsh-question-keys",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "D-pad friendly answering for DSH question cards: focus lands on the first option, arrows walk the options, confirm chooses, then submit.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale",
+    "docs",
+    "package.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

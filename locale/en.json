@@ -1,0 +1,5 @@
+{
+  "meta.title": "Question card keys",
+  "meta.description": "Moves focus onto the first option of a question card: up/down walk the options, confirm chooses (multi-select toggles), right jumps to submit, left returns to the options, and back still dismisses the whole group.",
+  "meta.detail": "docs/DETAIL.md"
+}
